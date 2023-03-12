@@ -300,7 +300,7 @@ footer p {
         gap: 0;
         place-items: center;
         margin: 0;
-        grid-template-rows: none;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 
     .auta div:nth-child(3) {
