@@ -1,0 +1,301 @@
+.cars {
+    padding-top: 15px;
+    margin-inline: 20px;
+    gap: 5px;
+    display: grid;
+    grid-template-areas:
+        "text1 obrazok1 "
+        "text1 obrazok2"
+        "pata pata"
+    ;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    z-index: 1;
+}
+
+.cars div:nth-child(1) {
+    grid-area: text1;
+    width: 1fr;
+    height: 100px;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    font-family: sans-serif;
+}
+
+.cars div:nth-child(1) button {
+    grid-area: text1;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+}
+
+.cars div:nth-child(2) {
+    grid-area: obrazok1;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.cars div:nth-child(2) img {
+    width: 50vw;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.cars div:nth-child(2):hover {
+    top: -10px;
+}
+
+.cars div:nth-child(3) {
+    grid-area: obrazok2;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.cars div:nth-child(3) img {
+    width: 50vw;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+
+.cars div:nth-child(3):hover {
+    top: -10px;
+}
+
+.cars button {
+    font-size: 45px;
+    font-weight: 100;
+    background: none;
+    color: black;
+    border-color: white;
+    font-size: 30px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.cars button:hover {
+    top: -10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1592198084033-aade902d1aae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: top;
+}
+
+footer {
+    grid-area: pata;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    top: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+nav:nth-child(1) a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: -20px;
+    color: white;
+}
+
+nav:nth-child(1) {
+    margin-left: -20px;
+}
+
+
+.container {
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
+
+.container>li {
+    position: relative;
+    padding: 0;
+    list-style: none;
+    z-index: 20;
+}
+
+.container>li>ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    width: 100px;
+    border-radius: 9px;
+    text-align: center;
+    border: 2px solid;
+    top: 250%;
+    display: none;
+    background-color:red;
+    z-index: 2;
+    color: black;
+}
+
+li>ul {
+    list-style: none;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+
+.tlacidlo:hover ul {
+    display: initial;
+}
+
+nav div:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+nav div:nth-child(2) ul li:nth-child(5) {
+    display: none;
+    font-weight: bold;
+}
+
+nav div:nth-child(3) button:nth-child(2) {
+    display: none;
+}
+
+button {
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.popisy {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgba(255, 0, 0, 0);
+    opacity: 0;
+    place-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cars div:nth-child(2):hover .popisy {
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+}
+
+.cars div:nth-child(3):hover .popisy {
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+}
+
+
+@media(max-width:650px) {
+    .container {
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        gap: 150px;
+        font-size: 20px;
+        font-weight: bold;
+        position: fixed;
+        left: -200%;
+        right: 200%;
+        transition: all 1s ease;
+        background-color: rgb(47, 44, 44);
+        z-index: 30;
+        top: 0;
+
+    }
+
+    .container>li>ul {
+        z-index: 21;
+    }
+
+    nav div:nth-child(1),
+    nav div:nth-child(3) {
+        z-index: 30;
+    }
+
+    nav div:nth-child(3) button:nth-child(2) {
+        display: initial;
+    }
+
+    .flex-container li:nth-child(5) {
+        display: initial;
+    }
+
+
+
+
+    .cars {
+        padding-top: 15px;
+        color: white;
+        display: grid;
+        grid-template-areas:
+            "text1"
+            "obrazok1"
+            "obrazok2"
+            "pata"
+        ;
+        grid-template-columns: 1fr;
+        place-items: center;
+        margin: 0;
+        gap: 0;
+        z-index: 1;
+    }
+
+    .cars div:nth-child(2) {
+        padding-top: 20px;
+        z-index: 1;
+    }
+
+    .cars div:nth-child(2) img {
+        width: 100vw;
+        gap: 10px;
+        border-radius: 5px;
+        z-index: 1;
+    }
+
+    .cars div:nth-child(3) img {
+        width: 100vw;
+        gap: 10px;
+        border-radius: 5px;
+        z-index: 1;
+    }
+}

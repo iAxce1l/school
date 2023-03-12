@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <ol> Rodič (ol)
+        <li> Priamy potomok (li, 1.úroveň)
+            <h3>Vzdialenejší potomok (h3, 2.úroveň)</h3>
+        </li>
+        <li>Priamy potomok (li, 1.úroveň)
+            <p>Vzdialenejší potomok (p, 2.úroveň)</p>
+        </li>
+        <p>Priamy potomok (p, 1. úroveň)</p>
+    </ol>
+
+    <p>1. susedný prvok (p)</p>
+    <p>2. susedný prvok (p)</p>
+    <p>3. susedný prvok (p)</p>
+
+    <style>
+        /* ol>p {
+            color: blue;
+        } */
+
+        /* ol p {
+            color: red;
+        } */
+
+        /* ol+p {
+            color: chartreuse;
+        } */
+
+        ol~p {
+            color: coral;
+        }
+
+        /* ol li {
+            color: darkorchid;
+        } */
+    </style>
+
+</body>
+
+</html>

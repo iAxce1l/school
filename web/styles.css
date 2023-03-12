@@ -1,0 +1,48 @@
+.grid-container {
+/*    zadame ze chceme aby sme urobili z toho grid*/
+    display: grid;
+    grid-template-areas:
+        "Hlavicka Hlavicka"           /*hlavicka sa roztiahne cez dva stlpce*/
+        "Obrazok Texthorny"           /*obrazok na dva riadky*/
+        "Obrazok Textdolny"           /*texty v druhom stlpci*/
+        "Pata Pata"                   /*pata na dva stlpce*/
+    ;
+    height: 100vh;
+}
+.grid-item {
+    border: red solid 2px;
+    text-align: center;
+}
+
+.grid-item1 { /*priradenie hodnot ku grid arei*/
+    grid-area: Hlavicka;
+    background-color: antiquewhite;
+}
+.grid-item2 {                         /*priradenie hodnot ku grid arei*/
+    grid-area: Obrazok;
+    background-color: yellow;
+}
+.grid-item3 {                         /*priradenie hodnot ku grid arei*/
+    grid-area: Texthorny;
+    background-color: green;
+}
+.grid-item4 {                         /*priradenie hodnot ku grid arei*/
+    grid-area: Textdolny;
+    background-color: yellow;
+}
+.grid-item5 {                         /*priradenie hodnot ku grid arei*/
+    grid-area: Pata;
+    background-color: orange;
+}
+
+@media (max-width: 600px) {             /*zmena rozlozenia*/
+    .grid-container {
+        grid-template-areas:
+            "Hlavicka"
+            "Obrazok"
+            "Texthorny"
+            "Textdolny"
+            "Pata"
+        ;
+        }
+}

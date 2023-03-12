@@ -1,0 +1,70 @@
+.grid-container {                   /*- celá strana*/
+    display: grid;
+    grid-template-areas:            /*- názvy a rozloženie gridov*/
+        "Header Header"
+        "Obrazok Texthorny"
+        "Obrazok Textdolny"
+        "Pata Pata"
+    ;
+    grid-template-columns: 2fr 1fr; /*- nastavenie veľkosti stlpcov gridu*/
+    gap: 20px;                      /*- medzeri medzi gridmi*/
+    height: 100vh;                  /*- velkosť na celú stranu*/
+
+}
+
+.grid-item {                        /*skupina gridov*/
+    display: grid;
+    text-align: center;             /*text-align: center; a place-items: center;  - zarovnanie textu na stred aj vertikalne aj horizontalne*/
+    place-items: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: black solid 2px;      /*- nastavenie ohraničenia gridov*/
+    border-radius: 10%;             /*- nastavenie zaoblenia borderu*/ 
+    background-color: azure;      /*- nastavenie farby pozadia*/
+    padding: 1%;                    /*- medzera od krajov gridov*/
+}
+
+.grid-item1 {                       /*- konkrétny grid*/
+    grid-area: Header;              /*- priradenie gridu k časti definovanej v containeri*/    
+    flex-wrap: wrap;                /*- postupne hádže prvy pod seba - responzíva*/
+    display: flex;                  /*- horizontálne zoradenie položiek v gride*/
+    justify-content: space-around;  /*- oddelenie položiek v gride medzerou*/
+    font-size: xx-large;
+}
+
+.grid-item2 {
+    grid-area: Obrazok;
+    background-color: rgb(78, 219, 118);
+    border-radius: 5%;
+    border: none                    /*- zrušenie borderu v danom gride*/
+}
+
+.grid-item2 img {
+    width: 100%;                    /*- nastavenie veľkosti fotky*/
+    height: 100%;
+}
+
+.grid-item3 {
+    grid-area: Texthorny;
+}
+
+.grid-item4 {
+    grid-area: Textdolny;
+}
+
+.grid-item5 {
+    grid-area: Pata;
+}
+
+@media (max-width: 600px) {       /*- responzíva, pri zmenšovaní okna sa budú zmenšovať aj gridy*/
+    .grid-container {
+        grid-template-areas:
+        "Header"
+        "Obrazok"
+        "Texthorny"
+        "Textdolny"
+        "Pata";
+        grid-template-columns: none; /*zruší stplcovanie pre responzívu*/
+    }
+}

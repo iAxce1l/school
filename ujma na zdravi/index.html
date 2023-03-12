@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari stranka</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="Ferrari-Logo.png" width="80px" alt="">
+            <a href="">Ferrari</a>
+        </div>
+        <div>
+            <ul class="container">
+                <li class="tlacidlo tlacidlo1">Vozidlá
+                    <ul>
+                        <li>Položka1</li>
+                        <li>Položka2</li>
+                        <li>Položka3</li>
+                        <li>Položka4</li>
+                    </ul>
+                </li>
+                <li class="tlacidlo tlacidlo2">Služby
+                    <ul>
+                        <li>Položka1</li>
+                        <li>Položka2</li>
+                        <li>Položka3</li>
+                        <li>Položka4</li>
+                    </ul>
+                </li>
+                <li class="tlacidlo tlacidlo3">Elektromobilita
+                    <ul>
+                        <li>Položka1</li>
+                        <li>Položka2</li>
+                        <li>Položka3</li>
+                        <li>Položka4</li>
+                    </ul>
+                </li>
+                <li class="tlacidlo tlacidlo4">Kontakt
+                    <ul>
+                        <li>Položka1</li>
+                        <li>Položka2</li>
+                        <li>Položka3</li>
+                        <li>Položka4</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <button>Prihlásenie</button>
+            <button>=</button>
+        </div>
+    </nav>
+
+
+
+    <div class="cars">
+        <div>
+            <h1>Úžasný pocit z jazdy</h1>
+            <p>OSLÁVTE S NAMI 10 ROKOV Ferrari A ZÍSKAJTE AŽ 31 055 KM ZDARMA. </p>
+            <button>Objavte akčné modely Ferrari</button>
+        </div>
+
+        <div>
+            <img src="http://ipravda.sk/res/2019/02/28/thumbs/ferrari-f8-tributo-2019_06-clanokW.jpg" alt="">
+            <p class="popisy">Popis auta</p>
+        </div>
+        <div>
+            <img src="https://profiauto.pl/files/3615/6110/5613/Ferrari-SF90-Stradale-ma-1000-KM.jpg" alt="">
+            <p class="popisy">Popis auta</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        const menuButton = document.querySelector("nav div:nth-child(3) button:nth-child(2)");
+        const menu = document.querySelector(".container");
+        var pravda = true;
+
+        menuButton.addEventListener("click", () => {
+            if (pravda) {
+                menu.style.left = "0";
+                menu.style.right = "0";
+                pravda = false;
+            }
+            else {
+                menu.style.left = "-200%";
+                menu.style.right = "200%";
+                pravda = true;
+            }
+        })
+    </script>
+
+
+    <footer>
+        <p>Kristína Dubrovčáková 2.A</p>
+    </footer>
+</body>
+
+</html>

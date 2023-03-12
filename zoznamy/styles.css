@@ -1,0 +1,10 @@
+.Nadpis {
+    font-weight: bold;
+    place-self: center;
+}
+
+body {
+    display: flex;
+    place-items: flex-start;
+    flex-direction: column;    
+}

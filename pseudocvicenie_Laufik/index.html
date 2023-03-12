@@ -1,0 +1,45 @@
+<!-- Vašou úlohou je nastaviť na:
+1. nezakliknutý odkaz žiadne počiarknutie a ani farbu,
+2. navštívený odkaz modrú farbu,
+3. odkaz nad ktorý nadíjdeme kurzorom červenú farbu a tieň,
+4. odkaz na ktorom držíme stlačené ľavé tlačidlo myši zelenú farbu a hrubé písmo,
+5. textové pole ktoré je zakliknuté sivé pozadie. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            text-decoration: none;
+            color:  black
+        }
+        a:visited {
+           color: blue; 
+        }
+
+        a:hover {
+            color: red;
+            text-shadow: 2px 1px 1px;
+        }
+
+        a:active {
+            color: green;
+            font-weight: bold;
+            text-shadow: none;
+        }
+        input:focus {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.youtube.com">Youtube</a>
+    <input name="textovepole" type="text">
+
+
+</body>
+</html>
