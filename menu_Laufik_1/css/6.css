@@ -90,7 +90,38 @@ button {
     background-color: white;
     color: black;
 }
+/*//////////////////////Srandy s JS//////////////////////*/
 
+.cudlik {
+    text-decoration: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+}
+
+.modely a {
+    color: rgb(200, 200, 200);
+}
+
+.modely1 a {
+    color: rgb(200, 200, 200);
+}
+
+ul {
+    padding: 0;
+}
+
+
+.diely a {
+        color: rgb(200, 200, 200);
+}
+
+.sluzby1 a {
+        color: rgb(200, 200, 200);
+}
+
+/*////////////////////////////////////////////////////*/
 
 /* objekty v body, fotky a text */
 .auta div:nth-child(1) {

@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url(images/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -93,6 +93,8 @@ p {
     margin: 0px;
 }
 
+/*//////////////////////Srandy s JS//////////////////////*/
+
 .cudlik {
     text-decoration: none;
     background: none;
@@ -101,10 +103,30 @@ p {
     font-size: 20px;
 }
 
+.modely a {
+    color: rgb(200, 200, 200);
+}
+
+.modely1 a {
+    color: rgb(200, 200, 200);
+}
 
 ul {
     padding: 0;
 }
+
+
+.diely a {
+        color: rgb(200, 200, 200);
+}
+
+.sluzby1 a {
+        color: rgb(200, 200, 200);
+}
+
+/*////////////////////////////////////////////////////*/
+
+
 
 
 /* objekty v body, fotky a text */
@@ -289,7 +311,7 @@ footer {
     body {
         padding: 0;
         margin: 0;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/bg.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;

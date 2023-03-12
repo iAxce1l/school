@@ -49,20 +49,56 @@ kat.addEventListener("click", () => {
     }
 })
 
-
 const sluzby = document.querySelector(".sluzby");
-const lists = document.querySelector(".lists");
+const diely = document.querySelector(".diely");
+const sluzby1 = document.querySelector(".sluzby1");
+const kat1 = document.querySelector(".kat1");
+
 
 
 sluzby.addEventListener("click", () => {
-    if (lists.style.display == "initial") {
-        lists.style.display = "none";
+    if (diely.style.display == "initial") {
+        diely.style.display = "none";
     }
 
     else {
-        lists.style.display = "initial";
+        diely.style.display = "initial";
     }
 })
+
+kat1.addEventListener("click", () => {
+    if (sluzby1.style.display == "initial") {
+        sluzby1.style.display = "none";
+    }
+
+    else {
+        sluzby1.style.display = "initial";
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const elektro = document.querySelector(".elektro");
 const ele = document.querySelector(".ele");

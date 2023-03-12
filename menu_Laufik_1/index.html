@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
     <nav>
       <div>
-        <a href=""> <img src="images/logo_auto.png" alt="" />BMW</a>
+        <a href=""> <img src="./images/logo_auto.png" alt="" />BMW</a>
       </div>
 
       <div>
         <ul class="flex-container">
+
+
           <li class="item">
             <button class="vozidla cudlik">Vozidlá</button>
             <ul class="initial modely">
@@ -27,20 +29,29 @@
                 <ul class="initial modely1">
                   <li><a href="html/">Plug-in-Hybrid</a></li>
                   <li><a href="html/">Hybrid</a></li>
-                  <li><a href="html/">Elektromobil</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li class="item sluzby">
-            Služby
-            <ul class="initial lists">
+
+          <li class="item">
+            <button class="sluzby cudlik">Služby</button>
+            <ul class="initial diely">
               <li><a href="html/diely.html">BMW diely</a></li>
               <li><a href="html/servis.html">BMW servis</a></li>
               <li><a href="html/leasing.html">BMW leasing</a></li>
-              <li><a href="html/skladove.html">Skladové Vozidlá</a></li>
+              <li>
+                <button class="kat1 cudlik">Skladové Vozidlá</button>
+                <ul class="initial sluzby1">
+                  <li><a href="html/">Spaľovacie</a></li>
+                  <li><a href="html/">Elektromobily</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
+
+
+          
           <li class="item elektro">
             Elektromobilita
             <ul class="initial ele">
@@ -93,6 +104,6 @@
       <p>Dávid Laufik ODP 2023</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
