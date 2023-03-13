@@ -159,6 +159,10 @@ ul {
     place-items: center;
 }
 
+.auta div:nth-child(3) p {
+    margin-bottom: 10px;
+}
+
 /* hover efekt zobrazenia textu v obrazku */
 .Popis {
     position: absolute;
@@ -205,6 +209,7 @@ ul {
     margin-inline: 20px;
     gap: 5px;
     text-align: center;
+    height: calc( 100vh - 30px );
 }
 
 .auta button {
@@ -232,6 +237,7 @@ footer {
     font-weight: bold;
     margin: 0 !important;
     padding: 0;
+    height: 30px;
 }
 footer p {
     margin-bottom: 0;
@@ -295,6 +301,7 @@ footer p {
         font-size: 40px;
         text-align: center;
         font-weight: bold;
+        margin-bottom: 20px;
     }
 
     body {
@@ -320,4 +327,7 @@ footer p {
         gap: 0;
     }
 
+    footer p {
+        margin-bottom: 0;
+    }
 }
