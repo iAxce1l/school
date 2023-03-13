@@ -100,25 +100,12 @@ button {
     font-size: 20px;
 }
 
-.modely a {
-    color: rgb(200, 200, 200);
-}
-
-.modely1 a {
-    color: rgb(200, 200, 200);
-}
-
 ul {
     padding: 0;
 }
 
-
-.diely a {
-        color: rgb(200, 200, 200);
-}
-
-.sluzby1 a {
-        color: rgb(200, 200, 200);
+.initial a {
+    color: rgb(200, 200, 200);
 }
 
 /*////////////////////////////////////////////////////*/
