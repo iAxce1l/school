@@ -230,6 +230,7 @@ footer {
   margin-bottom: 0;
   margin-top: auto;
   height: 30px;
+  margin-top: 30px;
 }
 /* responzivita */
 @media (max-width: 650px) {

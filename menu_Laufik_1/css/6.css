@@ -235,7 +235,6 @@ footer {
     font-size: 25px;
     background: rgba(0, 0, 0,0.19);
     font-weight: bold;
-    margin: 0 !important;
     padding: 0;
     height: 30px;
 }
@@ -330,4 +329,5 @@ footer p {
     footer p {
         margin-bottom: 0;
     }
+
 }
