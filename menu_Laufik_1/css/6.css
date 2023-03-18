@@ -6,6 +6,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  width: 100vw;
 }
 
 /* nav bar */
@@ -228,7 +229,7 @@ footer {
   color: white;
   text-align: center;
   font-size: 25px;
-  background: rgba(0, 0, 0, 0.19);
+  background: rgba(0, 0, 0, 0.5);
   font-weight: bold;
   padding: 0;
   height: 30px;
@@ -271,6 +272,14 @@ footer p {
 
   .flex-container li:nth-child(5) {
     display: initial;
+  }
+
+  .Popis {
+    font-size: 35px;
+  }
+
+  .texty {
+    font-size: 32px;
   }
 
   .auta {
