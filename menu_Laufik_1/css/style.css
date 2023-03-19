@@ -85,7 +85,10 @@ button {
   font-weight: bold;
   background-color: white;
   color: black;
+  cursor: pointer;
 }
+
+
 
 p {
   margin: 0px;

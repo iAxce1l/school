@@ -88,6 +88,7 @@ button {
   font-weight: bold;
   background-color: white;
   color: black;
+  cursor: pointer;
 }
 
 /*//////////////////////Srandy s JS//////////////////////*/

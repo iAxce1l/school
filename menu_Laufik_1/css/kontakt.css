@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
-      url(../images/pluginbg.jpg);
+      url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -88,6 +88,8 @@ body {
     cursor: pointer;
   }
   
+  
+  
   p {
     margin: 0px;
   }
@@ -113,98 +115,56 @@ body {
   /*////////////////////////////////////////////////////*/
   
   /* objekty v body, fotky a text */
-  .auta div:nth-child(1) {
-    grid-area: obrazok1;
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
+  .info div:nth-child(1) {
+    grid-area: mapa;
   }
-  
-  .auta div:nth-child(1):hover {
-    top: -10px;
-  }
-  
-  .auta div:nth-child(1) img {
-    width: 40vw;
+
+  .info div:nth-child(1) iframe {
+    width: 45vw;
     gap: 10px;
     border-radius: 5px;
   }
-  
-  /* hover efekt posunutia hore */
-  .auta div:nth-child(2) {
-    padding-top: 5px;
-    grid-area: obrazok2;
-    position: relative;
-    top: 0;
-    transition: top ease 0.5s;
+
+  .info div:nth-child(2) {
+    grid-area: mojafotka;
   }
-  
-  .auta div:nth-child(2):hover {
-    top: -10px;
-  }
-  
-  .auta div:nth-child(2) img {
-    width: 40vw;
+
+  .info div:nth-child(2) img {
+    width: 45vw;
     gap: 10px;
     border-radius: 5px;
   }
-  
-  .auta div:nth-child(3) {
+
+
+  .info div:nth-child(3) {
     display: flex;
-    grid-area: text1;
-    font-size: 70px;
-    place-content: center;
-    flex-direction: column;
-    place-items: center;
+    grid-area: meno;
+    font-size: 40px;
   }
-  
-  /* hover efekt zobrazenia textu v obrazku */
-  .Popis {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    color: rgba(255, 0, 0, 0);
-    opacity: 0;
-    place-items: center;
-    font-size: 50px;
-    font-weight: bold;
+
+  .info div:nth-child(4) {
     display: flex;
-    justify-content: center;
-    transition: all 0.5s ease;
-    background-color: rgba(0, 0, 0, 0.4);
+    grid-area: škola;
+    font-size: 30px;
   }
   
-  .auta div:nth-child(1):hover .Popis {
-    color: rgba(255, 255, 255, 1);
-    opacity: 1;
-  }
-  
-  .auta div:nth-child(2):hover .Popis {
-    color: rgba(255, 255, 255, 1);
-    opacity: 1;
-  }
-  
-  /* layout gridu */
-  .auta {
+  .info {
     padding-top: 15px;
     color: white;
     place-items: center;
     display: grid;
     grid-template-areas:
-      "text1 obrazok1"
-      "text1 obrazok2"
+      "meno mojafotka"
+      "škola mapa"
       "footer footer";
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr 1fr;
-    /* margin-inline: 20px; */
     gap: 5px;
     text-align: center;
     height: calc(100vh - 30px);
   }
   
-  .auta button {
+  .info button {
     font-size: 45px;
     font-weight: 100;
     background: none;
@@ -217,7 +177,7 @@ body {
     margin-top: 15px;
   }
   
-  .auta button:hover {
+  .info button:hover {
     top: -10px;
   }
   
@@ -228,14 +188,11 @@ body {
     font-size: 25px;
     background: rgba(0, 0, 0, 0.5);
     font-weight: bold;
-    padding: 0;
+    margin-bottom: 0;
+    margin-top: auto;
     height: 30px;
+    margin-top: 30px;
     width: 100%;
-    margin-top: 15px;
-  }
-
-  footer p {
-    margin: 0;
   }
   /* responzivita */
   @media (max-width: 650px) {
@@ -276,21 +233,22 @@ body {
       padding: 0;
       margin: 0;
       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(../images/pluginbg.jpg);
+        url(../images/bg.jpg);
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center;
       height: 100vh;
     }
   
-    .auta {
+    .info {
       padding-top: 15px;
       color: white;
       display: grid;
       grid-template-areas:
-        "text1"
-        "obrazok1"
-        "obrazok2"
+        "meno"
+        "mojafotka"
+        "škola"
+        "mapa"
         "footer";
       grid-template-columns: 1fr;
       grid-template-rows: none;
@@ -299,30 +257,30 @@ body {
       margin: 0;
     }
   
-    .auta div:nth-child(3) {
-      grid-area: text1;
+
+    .info div:nth-child(1) iframe {
+      width: 100vw;
+      gap: 10px;
+      border-radius: 5px;
+    }
+  
+
+    .info div:nth-child(2) img {
+      width: 100vw;
+      gap: 10px;
+      border-radius: 5px;
+    }
+  
+  
+    .info div:nth-child(3) {
+      display: flex;
       font-size: 40px;
-      text-align: center;
-      font-weight: bold;
     }
   
-    .auta div:nth-child(1) img {
-      width: 100vw;
-      gap: 0;
+    .info div:nth-child(4) {
+      display: flex;
+      font-size: 30px;
     }
-  
-    .auta div:nth-child(2) {
-      padding-top: 15px;
-    }
-  
-    .auta div:nth-child(2) img {
-      width: 100vw;
-      gap: 0;
-      padding-top: 15px;
-    }
-  
-    .auta button {
-      margin-bottom: 20px;
-    }
+    
   }
   
