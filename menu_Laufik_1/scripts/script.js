@@ -62,24 +62,24 @@ kat1.addEventListener("click", () => {
   }
 });
 
-const elektro = document.querySelector(".elektro");
-const ele = document.querySelector(".ele");
+// const elektro = document.querySelector(".elektro");
+// const ele = document.querySelector(".ele");
 
-elektro.addEventListener("click", () => {
-  if (ele.style.display == "initial") {
-    ele.style.display = "none";
-  } else {
-    ele.style.display = "initial";
-  }
-});
+// elektro.addEventListener("click", () => {
+//   if (ele.style.display == "initial") {
+//     ele.style.display = "none";
+//   } else {
+//     ele.style.display = "initial";
+//   }
+// });
 
-const kontakt = document.querySelector(".kontakt");
-const kontakty = document.querySelector(".kontakty");
+// const kontakt = document.querySelector(".kontakt");
+// const kontakty = document.querySelector(".kontakty");
 
-kontakt.addEventListener("click", () => {
-  if (kontakty.style.display == "initial") {
-    kontakty.style.display = "none";
-  } else {
-    kontakty.style.display = "initial";
-  }
-});
+// kontakt.addEventListener("click", () => {
+//   if (kontakty.style.display == "initial") {
+//     kontakty.style.display = "none";
+//   } else {
+//     kontakty.style.display = "initial";
+//   }
+// });
