@@ -236,6 +236,10 @@ body {
   footer p {
     margin: 0;
   }
+
+  .medzera {
+    display: none;
+  }
   /* responzivita */
   @media (max-width: 650px) {
     .flex-container {
