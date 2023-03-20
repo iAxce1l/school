@@ -1,0 +1,326 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+    url(../images/servisbg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/* nav bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.39);
+}
+
+nav div:nth-child(1) a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/* texty v nav bare */
+.flex-container {
+  gap: 50px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.item {
+  position: relative;
+}
+
+.initial {
+  display: none;
+}
+
+.item > ul {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  width: 150px;
+  border-radius: 9px;
+  text-align: center;
+  border: 2px solid;
+  top: 165%;
+  display: none;
+  background-color: rgba(31, 30, 29, 0.5);
+  z-index: 2;
+}
+
+li > ul {
+  list-style: none;
+}
+
+.flex-container li:nth-child(5) {
+  display: none;
+}
+
+nav div:nth-child(3) button:nth-child(2) {
+  display: none;
+}
+
+button {
+  border-radius: 12px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+p {
+  margin: 0px;
+}
+
+/*//////////////////////Srandy s JS//////////////////////*/
+
+.cudlik {
+  text-decoration: none;
+  background: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+.initial a {
+  color: rgb(200, 200, 200);
+}
+
+/*////////////////////////////////////////////////////*/
+
+/* objekty v body, fotky a text */
+.info div:nth-child(1) {
+  grid-area: nadpis;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+
+.info div:nth-child(1) h1 {
+  margin: 0;
+}
+
+.info div:nth-child(2) {
+  grid-area: text1;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(10px);
+  padding-inline: 32px;
+}
+
+.info div:nth-child(3) {
+  grid-area: fotka1;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.info div:nth-child(3) img {
+  width: 30vw;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.info div:nth-child(4) {
+  grid-area: fotka2;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.info div:nth-child(4) img {
+  width: 30vw;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.info div:nth-child(5) {
+  grid-area: fotka3;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.info div:nth-child(5) img {
+  width: 30vw;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.info {
+  padding-top: 15px;
+  color: white;
+  place-items: center;
+  display: grid;
+  grid-template-areas:
+    "nadpis nadpis nadpis"
+    "fotka1 fotka2 fotka3"
+    "text1 text1 text1"
+    "footer footer footer";
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: auto;
+  gap: 5px;
+  text-align: center;
+  height: calc(100vh - 30px);
+}
+
+.nadpis {
+  grid-area: nadpis;
+  background-color: rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(10px);
+}
+
+footer {
+  grid-area: footer;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: auto;
+  height: 30px;
+  width: 100%;
+}
+
+/* responzivita */
+@media (max-width: 650px) {
+  .flex-container {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    gap: 100px;
+    font-size: larger;
+    font-weight: bold;
+    position: fixed;
+    left: -200%;
+    right: 200%;
+    top: 0;
+    transition: all 1s ease;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 30;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  nav div:nth-child(1),
+  nav div:nth-child(3) {
+    z-index: 30;
+  }
+
+  nav div:nth-child(3) button:nth-child(2) {
+    display: initial;
+  }
+
+  .flex-container li:nth-child(5) {
+    display: initial;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../images/servisbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .info {
+    padding-top: 15px;
+    color: white;
+    display: grid;
+    grid-template-areas:
+      "nadpis"
+      "fotka1"
+      "fotka2"
+      "fotka3"
+      "text1"
+      "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    gap: 0;
+    place-items: center;
+    margin: 0;
+  }
+
+  .info div:nth-child(1) {
+    grid-area: nadpis;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.26);
+    backdrop-filter: blur(10px);
+    width: 100%;
+  }
+
+  .info div:nth-child(1) h1 {
+    margin: 0;
+  }
+
+  .info div:nth-child(2) {
+    grid-area: text1;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.26);
+    backdrop-filter: blur(10px);
+    padding-inline: 32px;
+  }
+
+  .info div:nth-child(3) {
+    grid-area: fotka1;
+    padding: 20px;
+  }
+
+  .info div:nth-child(3) img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .info div:nth-child(4) {
+    grid-area: fotka2;
+    padding: 20px;
+  }
+
+  .info div:nth-child(4) img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .info div:nth-child(5) {
+    grid-area: fotka3;
+    padding: 20px;
+  }
+
+  .info div:nth-child(5) img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+}
