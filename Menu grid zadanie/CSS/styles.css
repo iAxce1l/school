@@ -67,3 +67,13 @@ button {
 button a {
     color: whitesmoke;
 }
+
+@media(max-width: 650px) {
+    nav {
+        justify-content: space-between;
+    }
+
+    #nav-items {
+        gap: 15px;
+    }
+}
