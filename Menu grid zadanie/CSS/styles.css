@@ -1,148 +1,153 @@
 body {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #40376E;
-}
-
-.hide {
-    display: none;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #40376e;
 }
 
 nav {
-    display: flex;
-    /* width: 100%; */
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: solid 2px;
-    border-color: whitesmoke;
-    padding-inline: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px;
+  border-color: whitesmoke;
+  padding-inline: 10px;
 }
 
 nav div:nth-child(1) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav div:nth-child(1) a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: whitesmoke;
-    font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 20px;
 }
 
 nav div:nth-child(1) img {
-    width: 52px;
+  width: 52px;
 }
 
-nav div:nth-child(2)>ul {
-    display: flex;
+nav div:nth-child(2) > ul {
+  display: flex;
 }
 
 #miro {
-    display: none;
-    grid-template-areas:
-        "Obrazok1"
-        "Obrazok2"
-        "Obrazok3"
-        "Obrazok4"
-        "Obrazok5"
-        "Obrazok6"
-        "Obrazok7"
-        "Obrazok8"
-    ;
-    position: absolute;
-    padding: 0px;
-    background-color: #292E49;
+  display: none;
+  grid-template-areas:
+    "Obrazok1"
+    "Obrazok2"
+    "Obrazok3"
+    "Obrazok4"
+    "Obrazok5"
+    "Obrazok6"
+    "Obrazok7"
+    "Obrazok8";
+  padding: 0px;
+  background-color: #292e49;
 }
 
-#miro div:nth-child(1) {
-    grid-area: Obrazok1;
+#miro div img {
+  max-width: 150px;
+}
+
+#miro * {
+  width: 100%;
+}
+
+#miro div {
+  display: flex;
 }
 
 #miro div:nth-child(2) {
-    grid-area: Obrazok2;
+  grid-area: Obrazok1;
 }
 
 #miro div:nth-child(3) {
-    grid-area: Obrazok3;
+  grid-area: Obrazok2;
 }
 
 #miro div:nth-child(4) {
-    grid-area: Obrazok4;
+  grid-area: Obrazok3;
 }
 
 #miro div:nth-child(5) {
-    grid-area: Obrazok5;
+  grid-area: Obrazok4;
 }
 
 #miro div:nth-child(6) {
-    grid-area: Obrazok6;
+  grid-area: Obrazok5;
 }
 
 #miro div:nth-child(7) {
-    grid-area: Obrazok7;
+  grid-area: Obrazok6;
 }
 
 #miro div:nth-child(8) {
-    grid-area: Obrazok8;
+  grid-area: Obrazok7;
+}
+
+#miro div:nth-child(9) {
+  grid-area: Obrazok8;
 }
 
 #TV:hover #miro {
-    display: grid;
-    position: fixed;
-    left: 0;
-    margin-left: 0 !important;
-    top: 55;
-    width: 100vw;
-    margin-left: 50%;
-    transform: translateY(6%);
+  display: grid;
+  position: fixed;
+  left: 0;
+  top: 55;
+  width: 100vw;
+  transform: translateY(16px);
+  justify-content: left;
+  padding-left: 15px;
 }
 
 #TV a {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 #nav-items {
-    margin: 0;
-    padding: 0;
-    justify-content: space-around;
-    gap: 50px;
-    list-style: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: whitesmoke;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  gap: 50px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 button {
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 12px;
-    cursor: pointer;
-    font-size: 20px;
-    border-color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  border-color: white;
 }
 
 button a {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
-@media(max-width: 650px) {
-    nav {
-        justify-content: space-between;
-    }
+@media (max-width: 650px) {
+  nav {
+    justify-content: space-between;
+  }
 
-    #nav-items {
-        gap: 15px;
-    }
+  #nav-items {
+    gap: 15px;
+  }
 }
