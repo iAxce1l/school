@@ -63,7 +63,6 @@ nav div:nth-child(2) > ul {
 
 #miro div {
   display: flex;
-  z-index: 0;
 }
 
 #miro div:nth-child(2) {
@@ -100,11 +99,11 @@ nav div:nth-child(2) > ul {
 
 #TV:hover #miro {
   display: grid;
-  position: fixed;
-  left: 0;
-  top: 55;
-  width: 100vw;
-  transform: translateY(16px);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 55px;
+  width: 100%;
   justify-content: left;
   padding-left: 15px;
 }
@@ -114,7 +113,7 @@ nav div:nth-child(2) > ul {
 }
 
 #TV {
-  z-index: 9000000000000000000000000000000;
+  z-index: 9;
 }
 
 #nav-items {
@@ -130,6 +129,10 @@ nav div:nth-child(2) > ul {
   flex-direction: row;
   list-style: none;
   text-decoration: none;
+}
+
+nav > div {
+  z-index: 100;
 }
 
 a {
