@@ -13,6 +13,7 @@ nav {
   border-bottom: solid 2px;
   border-color: whitesmoke;
   padding-inline: 10px;
+  z-index: 0;
 }
 
 nav div:nth-child(1) {
@@ -62,6 +63,7 @@ nav div:nth-child(2) > ul {
 
 #miro div {
   display: flex;
+  z-index: 0;
 }
 
 #miro div:nth-child(2) {
@@ -109,6 +111,10 @@ nav div:nth-child(2) > ul {
 
 #TV a {
   font-size: 25px;
+}
+
+#TV {
+  z-index: 9000000000000000000000000000000;
 }
 
 #nav-items {
