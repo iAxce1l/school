@@ -71,6 +71,7 @@ a {
 
 #miro div img {
   max-width: 100px;
+  margin-left: 10px;
 }
 
 #miro * {
@@ -150,7 +151,6 @@ a {
   list-style: none;
   text-decoration: none;
   text-align: center;
-  border: ;
 }
 
 nav>div {
