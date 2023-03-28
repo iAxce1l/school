@@ -3,7 +3,7 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #40376e;
+  background-color: #292e49;
 }
 
 nav {
@@ -88,78 +88,26 @@ a {
   grid-area: Obrazok8;
 }
 
-#TV:hover #miro {
-  display: grid;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 55px;
-  width: 100%;
-  justify-content: left;
-  height: max-content;
-  justify-content: space-evenly;
-}
-
-#miro {
-  display: none;
-  grid-template-areas:
-    "Obrazok1 Obrazok2 Obrazok3 Obrazok4"
-    "Obrazok5 Obrazok6 Obrazok7 Obrazok8";
-  grid-row: auto;
-  grid-column: auto;
-  padding: 0px;
-  background-color: #292e49;
-  border-bottom: solid 2px;
-  border-color: whitesmoke;
-}
-
-#miro div img {
-  max-width: 100px;
-  margin-left: 10px;
-}
-
-#miro * {
-  width: 100%;
-}
-
-#miro div {
-  display: flex;
-  padding-top: 15px;
-  align-items: center;
-  ;
-}
-
-
-#TV a {
-  font-size: 20px;
-}
-
-#TV {
-  z-index: 9;
-}
-
-
 #miro1 {
   grid-template-areas:
-    "Obrazok1 Obrazok2 Obrazok3 Obrazok4"
-    "Obrazok5 Obrazok6 Obrazok7 Obrazok8";
+    "Obrazok1 Obrazok2"
+    "Obrazok3 Obrazok4"
+    "Obrazok5 Obrazok6"
+    "Obrazok7 Obrazok8";
   grid-row: auto;
   grid-column: auto;
   padding: 0px;
-  background-color: #292e49;
-  border-block: solid 2px;
-  border-color: whitesmoke;
   display: grid;
-  margin-top: 300px;
   width: 100vw;
-  margin-inline: 0;
-  justify-content: left;
   height: max-content;
+  margin: 0;
+  padding: 0;
+  justify-content: left;
   justify-content: space-evenly;
 }
 
 #miro1 div img {
-  max-width: 100px;
+  max-width: 145px;
   margin-left: 10px;
 }
 
@@ -243,11 +191,6 @@ nav div:nth-child(3) button:nth-child(2) {
     color: whitesmoke;
   }
 
-
-  #TV:hover #miro {
-    display: none;
-  }
-
   #nav-items {
     flex-direction: column;
     height: 100vh;
@@ -284,5 +227,4 @@ nav div:nth-child(3) button:nth-child(2) {
   #miro a {
     left: 50px;
   }
-
 }
