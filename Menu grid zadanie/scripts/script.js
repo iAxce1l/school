@@ -1,10 +1,17 @@
-// const TV = document.querySelector(".TV")
-// const TV1 = document.querySelector(".TV1")
+const menubutton = document.querySelector(
+  "nav div:nth-child(3) button:nth-child(2)"
+);
+const menu = document.querySelector("#nav-items");
 
-// TV.addEventListener("click", () => {
-//     if (TV1.style.display == "initial") {
-//       TV1.style.display = "none";
-//     } else {
-//       TV1.style.display = "initial";
-//     }
-//   });
+var click = 0;
+
+menubutton.addEventListener("click", () => {
+  click++;
+  if (click % 2 == 0) {
+    menu.style.left = "-200%";
+    menu.style.right = "200%";
+  } else {
+    menu.style.right = "0";
+    menu.style.left = "0";
+  }
+});
