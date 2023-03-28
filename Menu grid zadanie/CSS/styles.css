@@ -16,13 +16,13 @@ nav {
   z-index: 0;
 }
 
-nav>div:nth-child(1) {
+nav > div:nth-child(1) {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-nav>div:nth-child(1) a {
+nav > div:nth-child(1) a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,22 +30,22 @@ nav>div:nth-child(1) a {
   font-size: 20px;
 }
 
-nav>div:nth-child(1) img {
+nav > div:nth-child(1) img {
   width: 52px;
 }
 
-nav>div:nth-child(2) {
+nav > div:nth-child(2) {
   height: 52px;
   display: flex;
   align-items: center;
 }
 
-nav>div:nth-child(2)>ul {
+nav > div:nth-child(2) > ul {
   display: flex;
   height: 52px;
 }
 
-nav>div:nth-child(2)>ul>li {
+nav > div:nth-child(2) > ul > li {
   display: flex;
   align-items: center;
 }
@@ -82,7 +82,6 @@ a {
   display: flex;
   padding-top: 15px;
   align-items: center;
-  ;
 }
 
 #miro div:nth-child(2) {
@@ -153,7 +152,7 @@ a {
   text-align: center;
 }
 
-nav>div {
+nav > div {
   z-index: 100;
 }
 
@@ -187,7 +186,7 @@ nav div:nth-child(3) button:nth-child(2) {
     z-index: 300000000000000000000000;
   }
 
-  nav div:nth-child(2)>ul>li {
+  nav div:nth-child(2) > ul > li {
     justify-content: center;
   }
 
@@ -209,7 +208,8 @@ nav div:nth-child(3) button:nth-child(2) {
 
   #nav-items {
     flex-direction: column;
-    height: 100vh;
+    width: 100%;
+    color: aliceblue;
     justify-content: center;
     gap: 100px;
     font-size: larger;
@@ -226,5 +226,4 @@ nav div:nth-child(3) button:nth-child(2) {
   #miro a {
     left: 50px;
   }
-
 }
