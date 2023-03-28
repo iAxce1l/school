@@ -1,0 +1,288 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #40376e;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 2px;
+  border-color: whitesmoke;
+  padding-inline: 10px;
+  z-index: 0;
+}
+
+nav>div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav>div:nth-child(1) a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+nav>div:nth-child(1) img {
+  width: 52px;
+}
+
+nav>div:nth-child(2) {
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+nav>div:nth-child(2)>ul {
+  display: flex;
+  height: 52px;
+}
+
+nav>div:nth-child(2)>ul>li {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+#miro1 div:nth-child(2) {
+  grid-area: Obrazok1;
+}
+
+#miro1 div:nth-child(3) {
+  grid-area: Obrazok2;
+}
+
+#miro1 div:nth-child(4) {
+  grid-area: Obrazok3;
+}
+
+#miro1 div:nth-child(5) {
+  grid-area: Obrazok4;
+}
+
+#miro1 div:nth-child(6) {
+  grid-area: Obrazok5;
+}
+
+#miro1 div:nth-child(7) {
+  grid-area: Obrazok6;
+}
+
+#miro1 div:nth-child(8) {
+  grid-area: Obrazok7;
+}
+
+#miro1 div:nth-child(9) {
+  grid-area: Obrazok8;
+}
+
+#TV:hover #miro {
+  display: grid;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 55px;
+  width: 100%;
+  justify-content: left;
+  height: max-content;
+  justify-content: space-evenly;
+}
+
+#miro {
+  display: none;
+  grid-template-areas:
+    "Obrazok1 Obrazok2 Obrazok3 Obrazok4"
+    "Obrazok5 Obrazok6 Obrazok7 Obrazok8";
+  grid-row: auto;
+  grid-column: auto;
+  padding: 0px;
+  background-color: #292e49;
+  border-bottom: solid 2px;
+  border-color: whitesmoke;
+}
+
+#miro div img {
+  max-width: 100px;
+  margin-left: 10px;
+}
+
+#miro * {
+  width: 100%;
+}
+
+#miro div {
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+  ;
+}
+
+
+#TV a {
+  font-size: 20px;
+}
+
+#TV {
+  z-index: 9;
+}
+
+
+#miro1 {
+  grid-template-areas:
+    "Obrazok1 Obrazok2 Obrazok3 Obrazok4"
+    "Obrazok5 Obrazok6 Obrazok7 Obrazok8";
+  grid-row: auto;
+  grid-column: auto;
+  padding: 0px;
+  background-color: #292e49;
+  border-block: solid 2px;
+  border-color: whitesmoke;
+  display: grid;
+  margin-top: 300px;
+  width: 100vw;
+  margin-inline: 0;
+  justify-content: left;
+  height: max-content;
+  justify-content: space-evenly;
+}
+
+#miro1 div img {
+  max-width: 100px;
+  margin-left: 10px;
+}
+
+#miro1 * {
+  width: 100%;
+}
+
+#miro1 div {
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+}
+
+#miro1 a {
+  font-weight: bold;
+}
+
+#nav-items {
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  gap: 50px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav>div {
+  z-index: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  border-color: white;
+}
+
+button a {
+  color: whitesmoke;
+}
+
+nav div:nth-child(3) button:nth-child(2) {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  nav {
+    justify-content: space-between;
+  }
+
+  nav div:nth-child(1),
+  nav div:nth-child(3) {
+    z-index: 300000000000000000000000;
+  }
+
+  nav div:nth-child(2)>ul>li {
+    justify-content: center;
+  }
+
+  #nav-items {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+  }
+
+  nav div:nth-child(3) button:nth-child(2) {
+    display: initial;
+    color: whitesmoke;
+  }
+
+
+  #TV:hover #miro {
+    display: none;
+  }
+
+  #nav-items {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    gap: 100px;
+    font-size: larger;
+    font-weight: bold;
+    position: fixed;
+    left: -200%;
+    right: 200%;
+    top: 0;
+    transition: all 1s ease;
+    background-color: #292e49;
+    z-index: 30;
+  }
+
+
+  #miro1 {
+    grid-template-areas:
+      "Obrazok1"
+      "Obrazok2"
+      "Obrazok3"
+      "Obrazok4"
+      "Obrazok5"
+      "Obrazok6"
+      "Obrazok7"
+      "Obrazok8";
+    padding: 0px;
+    background-color: #292e49;
+    border-bottom: solid 2px;
+    border-color: whitesmoke;
+  }
+
+  #miro a {
+    left: 50px;
+  }
+
+}
