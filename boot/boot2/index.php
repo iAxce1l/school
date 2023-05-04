@@ -1,3 +1,7 @@
+<?php 
+include ("formular.php")
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -261,7 +265,7 @@
               aliquid doloremque enim ex quod, iste recusandae architecto aut aspernatur doloribus et voluptates, sit
               dolor explicabo.</p>
             <button type="button" class="btn btn-outline-warning">Aktuálne materiály</button>
-            <img src="./img/teoreticka_vyucba.svg" style="width: 350px; height: 350px;" alt="">
+            <img src="./img/teoreticka_vyucba.svg" style="height:25vh; padding-top: 10px;" alt="">
           </div>
           <div class="col d-flex flex-column align-items-center justify-content-center">
             <div class="d-flex justify-content-center align-items-center">
@@ -271,7 +275,7 @@
               suscipit est sed aut, labore dolores natus neque aliquam? Quaerat ex dolorem quasi voluptas dicta
               perspiciatis.</p>
             <button type="button" class="btn btn-outline-warning">Poloha cvičiska</button>
-            <img src="./img/cvicisko.svg" style="width: 350px; height: 350px;" alt="">
+            <img src="./img/cvicisko.svg" style="height:25vh; padding-top: 10px;" alt="">
           </div>
           <div class="col d-flex flex-column align-items-center justify-content-center">
             <div class="d-flex justify-content-center align-items-center">
@@ -281,7 +285,7 @@
               similique mollitia officia possimus fugiat sint natus. Magnam cum temporibus, consequatur atque ipsum
               adipisci ut veniam.</p>
             <button type="button" class="btn btn-outline-warning">Okruhy jázd</button>
-            <img src="./img/realna_premavka.svg" style="width: 350px; height: 350px;" alt="">
+            <img src="./img/realna_premavka.svg" style="height:25vh; padding-top: 10px;" alt="">
           </div>
         </div>
       </div>
@@ -292,10 +296,40 @@
       </svg>
   </section>
 
+  <section class="bg-black">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#FFFFFFFF" fill-opacity="1"
+        d="M0,256L17.1,240C34.3,224,69,192,103,160C137.1,128,171,96,206,101.3C240,107,274,149,309,192C342.9,235,377,277,411,288C445.7,299,480,277,514,266.7C548.6,256,583,256,617,240C651.4,224,686,192,720,186.7C754.3,181,789,203,823,224C857.1,245,891,267,926,266.7C960,267,994,245,1029,229.3C1062.9,213,1097,203,1131,208C1165.7,213,1200,235,1234,245.3C1268.6,256,1303,256,1337,261.3C1371.4,267,1406,277,1423,282.7L1440,288L1440,0L1422.9,0C1405.7,0,1371,0,1337,0C1302.9,0,1269,0,1234,0C1200,0,1166,0,1131,0C1097.1,0,1063,0,1029,0C994.3,0,960,0,926,0C891.4,0,857,0,823,0C788.6,0,754,0,720,0C685.7,0,651,0,617,0C582.9,0,549,0,514,0C480,0,446,0,411,0C377.1,0,343,0,309,0C274.3,0,240,0,206,0C171.4,0,137,0,103,0C68.6,0,34,0,17,0L0,0Z">
+      </path>
+    </svg>
+
+    <form style="width: 50%; transform: translateX(50%);" class="text-center text-white">
+      <div class="form-group">
+        <label for="Meno">Vaše meno</label>
+        <input type="text" class="form-control" placeholder="Meno" name="first_name">
+      </div>
+      <div class="form-group">
+        <label for="Priezvisko">Vaše priezvisko</label>
+        <input type="text" class="form-control" placeholder="Priezvisko" name="last_name">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Váš E-Mail</label>
+        <input type="email" class="form-control" placeholder="email@email.com" name="email>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Správa</label>
+        <textarea class="form-control" placeholder="Vaša Správa" rows="3" name="message"></textarea>
+      </div>
+      <input type="submit" class="btn btn-danger m-4" value="Odoslať">
+    </form>
+    <div class="col d-flex flex-column align-items-center justify-content-center">
+      <img src="./img/kontakt.svg"alt="">
+    </div>
+  </section>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
 
 </body>
-
 </html>
