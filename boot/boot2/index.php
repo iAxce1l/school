@@ -303,7 +303,7 @@ include ("formular.php")
       </path>
     </svg>
 
-    <form style="width: 50%; transform: translateX(50%);" class="text-center text-white">
+    <form style="width: 50%; transform: translateX(50%);" class="text-center text-white" method="POST" action="">
       <div class="form-group">
         <label for="Meno">Vaše meno</label>
         <input type="text" class="form-control" placeholder="Meno" name="meno">
@@ -314,13 +314,13 @@ include ("formular.php")
       </div>
       <div class="form-group">
         <label for="exampleFormControlInput1">Váš E-Mail</label>
-        <input type="email" class="form-control" placeholder="email@email.com" name="email>
+        <input type="email" class="form-control" placeholder="email@email.com" name="email">
       </div>
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Správa</label>
         <textarea class="form-control" placeholder="Vaša Správa" rows="3" name="sprava"></textarea>
       </div>
-      <input type="submit" class="btn btn-danger m-4" value="Odoslať">
+      <input type="submit" class="btn btn-danger m-4" value="Odoslať" name="submit">
     </form>
     <div class="col d-flex flex-column align-items-center justify-content-center">
       <img src="./img/kontakt.svg"alt="">
