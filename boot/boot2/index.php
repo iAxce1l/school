@@ -306,11 +306,11 @@ include ("formular.php")
     <form style="width: 50%; transform: translateX(50%);" class="text-center text-white">
       <div class="form-group">
         <label for="Meno">Vaše meno</label>
-        <input type="text" class="form-control" placeholder="Meno" name="first_name">
+        <input type="text" class="form-control" placeholder="Meno" name="meno">
       </div>
       <div class="form-group">
         <label for="Priezvisko">Vaše priezvisko</label>
-        <input type="text" class="form-control" placeholder="Priezvisko" name="last_name">
+        <input type="text" class="form-control" placeholder="Priezvisko" name="priezvisko">
       </div>
       <div class="form-group">
         <label for="exampleFormControlInput1">Váš E-Mail</label>
@@ -318,7 +318,7 @@ include ("formular.php")
       </div>
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Správa</label>
-        <textarea class="form-control" placeholder="Vaša Správa" rows="3" name="message"></textarea>
+        <textarea class="form-control" placeholder="Vaša Správa" rows="3" name="sprava"></textarea>
       </div>
       <input type="submit" class="btn btn-danger m-4" value="Odoslať">
     </form>
