@@ -51,6 +51,9 @@ include ("formular.php")
           <li class="nav-item">
             <a class="nav-link">O nás</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link text-black text-capitalize" href="phpmysqlregistracia/index.php">Login</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -326,6 +329,14 @@ include ("formular.php")
       <img src="./img/kontakt.svg"alt="">
     </div>
   </section>
+
+<section>
+<div class="card">
+  <div class="card-header justify-content-center align-items-center text-center text-black">
+  <h5>Dávid Laufik 2023 ODP</h5>
+  </div>
+</div>
+</section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
