@@ -1,3 +1,3 @@
 <?php
-    header("Location: prihlasenie.php");
+header("Location: prihlasenie.php");
 ?>
