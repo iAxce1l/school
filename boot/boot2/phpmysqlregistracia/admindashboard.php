@@ -118,16 +118,24 @@ include("autentifikacia.php");
             text-align: center;
         }
 
-        .tablička {
-            overflow-x: scroll;
-            overflow-y: scroll;
-            height: 500px;
+        table {
+            width: 100%;
         }
 
-        .th.fixed {
-            top: 0;
-            z-index: 2;
-            position: sticky;
+        .tablička {
+            overflow: hidden;
+            overflow-x: scroll;
+            overflow-y: scroll;
+            width: clamp(1000px, 80vw, 80vw);
+            padding: 0;
+        }
+
+        @media(max-width=1000px) {
+
+
+            .tablička {
+                overflow: scroll;
+            }
         }
     </style>
 </head>
