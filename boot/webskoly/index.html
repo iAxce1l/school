@@ -33,8 +33,11 @@
     }
   </style>
 
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body" data-bs-theme="dark">
+  <body class="bg-dark">
+    <nav
+      class="navbar navbar-expand-lg bg-body border-bottom border-white"
+      data-bs-theme="dark"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./img/logo-removebg-preview.png" width="52px" alt="" />
@@ -54,7 +57,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./podstranky/1/novinky.html">Novinky</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="./podstranky/1/novinky.html"
+                >Novinky</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -67,8 +75,20 @@
                 O škole
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./podstranky/oskole/profil.html">Profil školy</a></li>
-                <li><a class="dropdown-item" href="./podstranky/oskole/hodnoty.html">Naše hodnoty</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./podstranky/oskole/profil.html"
+                    >Profil školy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./podstranky/oskole/hodnoty.html"
+                    >Naše hodnoty</a
+                  >
+                </li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -82,9 +102,19 @@
                 Pre uchádzačov
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./podstranky/preuchadzacov/programy.html">Študijné programy</a></li>
                 <li>
-                  <a class="dropdown-item" href="./podstranky/preuchadzacov/prijimacky.html">Prijímacie konanie</a>
+                  <a
+                    class="dropdown-item"
+                    href="./podstranky/preuchadzacov/programy.html"
+                    >Študijné programy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./podstranky/preuchadzacov/prijimacky.html"
+                    >Prijímacie konanie</a
+                  >
                 </li>
               </ul>
             </li>
@@ -99,8 +129,20 @@
                 Život na škole
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./podstranky/naskole/fotoalbum.html">Fotoalbum</a></li>
-                <li><a class="dropdown-item" href="./podstranky/naskole/erasmus.html">Erasmus+</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./podstranky/naskole/fotoalbum.html"
+                    >Fotoalbum</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="./podstranky/naskole/erasmus.html"
+                    >Erasmus+</a
+                  >
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -130,7 +172,7 @@
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
+              <button type="button" class="btn btn-primary" id="liveAlertBtn">
                 Search
               </button>
             </form>
@@ -138,6 +180,11 @@
         </div>
       </div>
     </nav>
+
+    <div
+      class="position-absolute top-10 start-50 translate-middle-x pt-3 position-absolute z-3"
+      id="liveAlertPlaceholder"
+    ></div>
 
     <section class="pb-5">
       <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
@@ -173,15 +220,21 @@
           </div>
           <div class="carousel-item">
             <div class="carousel-caption bg-dark text-light">
-              <h5 class="user-select-none">Študentské súťaže v anglickom jazyku</h5>
-              <p class="user-select-none">Rozvíjame obzory študentov v cudzích jazykoch</p>
+              <h5 class="user-select-none">
+                Študentské súťaže v anglickom jazyku
+              </h5>
+              <p class="user-select-none">
+                Rozvíjame obzory študentov v cudzích jazykoch
+              </p>
             </div>
             <div class="bimg bimg2"></div>
           </div>
           <div class="carousel-item">
             <div class="carousel-caption bg-dark text-light">
               <h5 class="user-select-none">Výlet do CERNU</h5>
-              <p class="user-select-none">5-dňová exkurzia študentov 2. a 3. ročníka</p>
+              <p class="user-select-none">
+                5-dňová exkurzia študentov 2. a 3. ročníka
+              </p>
             </div>
             <div class="bimg bimg3"></div>
           </div>
@@ -315,7 +368,12 @@
     </section>
 
     <footer>
-        <p class="border-top text-center text-white fs-5 align-items-center justify-content-center" style="background-color: rgb(17, 8, 36); padding: 0; margin: 0;">Dávid Laufik 2023 ODP</p>
+      <p
+        class="border-top text-center text-white fs-5 align-items-center justify-content-center"
+        style="background-color: rgb(17, 8, 36); padding: 0; margin: 0"
+      >
+        Dávid Laufik 2023 ODP
+      </p>
     </footer>
 
     <script
@@ -323,5 +381,27 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
+      const appendAlert = (message, type) => {
+        const wrapper = document.createElement("div");
+        wrapper.innerHTML = [
+          `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+          `   <div>${message}</div>`,
+          '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+          "</div>",
+        ].join("");
+
+        alertPlaceholder.append(wrapper);
+      };
+
+      const alertTrigger = document.getElementById("liveAlertBtn");
+      if (alertTrigger) {
+        alertTrigger.addEventListener("click", () => {
+          appendAlert("Klikol si na search", "success");
+        });
+      }
+    </script>
   </body>
 </html>
