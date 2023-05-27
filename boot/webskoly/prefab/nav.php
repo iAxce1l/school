@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="../../">
           <img src="./img/logo-removebg-preview.png" width="52px" alt="" />
           SSOSTA</a
         >
@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Novinky</a>
+              <a class="nav-link" aria-current="page" href="./podstranky/1/novinky.html">Novinky</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -31,8 +31,8 @@
                 O škole
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Profil školy</a></li>
-                <li><a class="dropdown-item" href="#">Naše hodnoty</a></li>
+                <li><a class="dropdown-item" href="./podstranky/oskole/profil.html">Profil školy</a></li>
+                <li><a class="dropdown-item" href="./podstranky/oskole/hodnoty.html">Naše hodnoty</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -46,9 +46,9 @@
                 Pre uchádzačov
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Študijné programy</a></li>
+                <li><a class="dropdown-item" href="./podstranky/preuchadzacov/programy.html">Študijné programy</a></li>
                 <li>
-                  <a class="dropdown-item" href="#">Prijímacie konanie</a>
+                  <a class="dropdown-item" href="./podstranky/preuchadzacov/prijimacky.html">Prijímacie konanie</a>
                 </li>
               </ul>
             </li>
@@ -63,12 +63,12 @@
                 Život na škole
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Fotoalbum</a></li>
-                <li><a class="dropdown-item" href="#">Erasmus+</a></li>
+                <li><a class="dropdown-item" href="./podstranky/naskole/fotoalbum.html">Fotoalbum</a></li>
+                <li><a class="dropdown-item" href="./podstranky/naskole/erasmus.html">Erasmus+</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kontakt</a>
+              <a class="nav-link" href="./podstranky/1/kontakt.html">Kontakt</a>
             </li>
           </ul>
           <div class="d-flex">
