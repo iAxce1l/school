@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-body" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="../../">
-          <img src="./img/logo-removebg-preview.png" width="52px" alt="" />
+          <img src="../../img/logo-removebg-preview.png" width="52px" alt="" />
           SSOSTA</a
         >
         <button
