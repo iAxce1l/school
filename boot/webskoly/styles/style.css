@@ -33,3 +33,11 @@
  .accordion-button:not(.collapsed) {
   background-color: #363c42 !important;
  }
+
+.fotka1 {
+  background-image: url(../img/ta1.jpg);
+}
+
+.fotka2 {
+  background-image: url(../img/ta2.jpg);
+}
