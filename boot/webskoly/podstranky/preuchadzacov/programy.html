@@ -89,7 +89,8 @@
 
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button type="button" class="btn btn-primary" id="liveAlertBtn">
+            <button type="button" class="btn btn-primary" id="liveAlertBtn" data-bs-toggle="tooltip"
+              data-bs-placement="bottom" data-bs-title="Vyhľadaj">
               Search
             </button>
           </form>
@@ -260,6 +261,10 @@
       });
     }
   </script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
 </body>
 
 </html>
