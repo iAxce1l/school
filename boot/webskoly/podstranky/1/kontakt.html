@@ -74,7 +74,7 @@ require("../form/form.php")
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="./kontakt.html">Škola</a>
+                <a class="dropdown-item" href="#">Škola</a>
               </li>
               <li>
                 <a class="dropdown-item" href="./intrak.html">Internát</a>
@@ -220,9 +220,29 @@ require("../form/form.php")
       <div class="form-group">
         <input type="checkbox" name="sendCopy" value="1"> Chcete kópiu ?
       </div>
-      <input type="submit" class="btn btn-danger m-4" value="Odoslať" name="submit">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Odoslať
+      </button>
     </form>
-
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Ste si istý ?</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Správu ešte môžete zmeniť
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Vrátiť späť</button>
+            <form class="text-center text-white" method="POST" action="">
+              <input type="submit" class="btn btn-danger" value="Odoslať" name="submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <footer>
@@ -260,6 +280,15 @@ require("../form/form.php")
   <script>
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+
+  <script>
+    const myModal = document.getElementById('myModal')
+    const myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', () => {
+      myInput.focus()
+    })
   </script>
 </body>
 

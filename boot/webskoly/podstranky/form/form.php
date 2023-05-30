@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
     ];
 
     if (isset($_POST['sendCopy']) && $_POST['sendCopy'] == 1) {
-        $to .= "," . $from; // Add the recipient's email to the $to variable
+        $to .= "," . $from; 
     }
 
     $headers = implode("\r\n", $header_array);
