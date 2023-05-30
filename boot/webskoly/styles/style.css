@@ -41,3 +41,13 @@
 .fotka2 {
   background-image: url(../img/ta2.jpg);
 }
+.scrollspy-example {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  padding-inline: 20px;
+}
+
+.programy {
+  text-decoration: none;
+}
