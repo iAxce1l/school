@@ -17,7 +17,6 @@ if (isset($_POST['submit'])) {
 
     $headers = implode("\r\n", $header_array);
     mail($to, $subject, $message, $headers);
-    header('Location: form.php');
 }
 
 ?>
