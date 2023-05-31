@@ -214,7 +214,7 @@ if (isset($_POST['submit'])) {
       <div class="row p-3">
         <div id="mapa" class="col">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.6126707209537!2d20.27764297681359!3d49.05598778678018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473e3ab9f316877f%3A0xacb6328ecb3f4ec4!2zU8O6a3JvbW7DoSBzdHJlZG7DoSBvZGJvcm7DoSDFoWtvbGEgKFNTT1NUQSk!5e0!3m2!1ssk!2ssk!4v1685219697809!5m2!1ssk!2ssk"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.516234070091!2d20.28927687681369!3d49.057821186650855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473e3abf9c70e543%3A0xfdc66022452751cb!2zxaBrb2xza8O9IGludGVybsOhdA!5e0!3m2!1ssk!2ssk!4v1685563519403!5m2!1ssk!2ssk"
             style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
           frameborder="0"></iframe>
         </div>
@@ -230,7 +230,7 @@ if (isset($_POST['submit'])) {
         Na vaše otázky radi odpovieme.</p>
     </div>
 
-    <form style="width: 50%; transform: translateX(50%);" class="text-center text-white" method="POST" action="">
+    <form style="width: 50%; transform: translateX(50%);" class="text-center text-white mb-2" method="POST" action="">
       <div class="form-group">
         <label for="Meno">Meno a priezvisko</label>
         <input type="text" class="form-control" placeholder="Meno" name="meno">

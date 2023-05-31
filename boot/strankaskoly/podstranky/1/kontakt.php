@@ -235,7 +235,7 @@ if (isset($_POST['submit'])) {
         vaše otázky radi odpovieme.</p>
     </div>
 
-    <form style="width: 50%; transform: translateX(50%);" class="text-center text-white" method="POST" action="">
+    <form style="width: 50%; transform: translateX(50%);" class="text-center text-white mb-2" method="POST" action="">
       <div class="form-group">
         <label for="Meno">Meno a priezvisko</label>
         <input type="text" class="form-control" placeholder="Meno" name="meno">
