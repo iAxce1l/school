@@ -1,0 +1,15 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\bin\Debug\net6.0\cvicenie na class.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\bin\Debug\net6.0\cvicenie na class.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\bin\Debug\net6.0\cvicenie na class.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\bin\Debug\net6.0\cvicenie na class.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\bin\Debug\net6.0\cvicenie na class.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\obj\Debug\net6.0\cvicenie na class.csproj.AssemblyReference.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\obj\Debug\net6.0\cvicenie na class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\obj\Debug\net6.0\cvicenie na class.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\obj\Debug\net6.0\cvicenie na class.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\obj\Debug\net6.0\cvicenie na class.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\obj\Debug\net6.0\cvicenie na class.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\obj\Debug\net6.0\refint\cvicenie na class.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\obj\Debug\net6.0\cvicenie na class.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\obj\Debug\net6.0\cvicenie na class.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\cvicenie na class\obj\Debug\net6.0\ref\cvicenie na class.dll

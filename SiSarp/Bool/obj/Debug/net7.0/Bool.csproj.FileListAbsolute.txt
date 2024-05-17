@@ -1,0 +1,15 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\bin\Debug\net7.0\Bool.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\bin\Debug\net7.0\Bool.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\bin\Debug\net7.0\Bool.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\bin\Debug\net7.0\Bool.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\bin\Debug\net7.0\Bool.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\obj\Debug\net7.0\Bool.csproj.AssemblyReference.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\obj\Debug\net7.0\Bool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\obj\Debug\net7.0\Bool.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\obj\Debug\net7.0\Bool.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\obj\Debug\net7.0\Bool.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\obj\Debug\net7.0\Bool.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\obj\Debug\net7.0\refint\Bool.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\obj\Debug\net7.0\Bool.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\obj\Debug\net7.0\Bool.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Bool\obj\Debug\net7.0\ref\Bool.dll

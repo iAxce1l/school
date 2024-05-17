@@ -1,0 +1,15 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\bin\Debug\net7.0\pisomka laufik.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\bin\Debug\net7.0\pisomka laufik.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\bin\Debug\net7.0\pisomka laufik.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\bin\Debug\net7.0\pisomka laufik.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\bin\Debug\net7.0\pisomka laufik.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\obj\Debug\net7.0\pisomka laufik.csproj.AssemblyReference.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\obj\Debug\net7.0\pisomka laufik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\obj\Debug\net7.0\pisomka laufik.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\obj\Debug\net7.0\pisomka laufik.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\obj\Debug\net7.0\pisomka laufik.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\obj\Debug\net7.0\pisomka laufik.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\obj\Debug\net7.0\refint\pisomka laufik.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\obj\Debug\net7.0\pisomka laufik.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\obj\Debug\net7.0\pisomka laufik.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\pisomka laufik\obj\Debug\net7.0\ref\pisomka laufik.dll

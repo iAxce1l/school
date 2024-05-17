@@ -1,0 +1,14 @@
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\bin\Debug\net8.0\27.11.2023.exe
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\bin\Debug\net8.0\27.11.2023.deps.json
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\bin\Debug\net8.0\27.11.2023.runtimeconfig.json
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\bin\Debug\net8.0\27.11.2023.dll
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\bin\Debug\net8.0\27.11.2023.pdb
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\obj\Debug\net8.0\27.11.2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\obj\Debug\net8.0\27.11.2023.AssemblyInfoInputs.cache
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\obj\Debug\net8.0\27.11.2023.AssemblyInfo.cs
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\obj\Debug\net8.0\27.11.2023.csproj.CoreCompileInputs.cache
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\obj\Debug\net8.0\27.11.2023.dll
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\obj\Debug\net8.0\refint\27.11.2023.dll
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\obj\Debug\net8.0\27.11.2023.pdb
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\obj\Debug\net8.0\27.11.2023.genruntimeconfig.cache
+C:\Users\Dominik Semančík\Desktop\GAME\27.11.2023\27.11.2023\obj\Debug\net8.0\ref\27.11.2023.dll

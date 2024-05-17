@@ -1,0 +1,17 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\bin\Debug\net8.0-windows\form(ales).exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\bin\Debug\net8.0-windows\form(ales).deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\bin\Debug\net8.0-windows\form(ales).runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\bin\Debug\net8.0-windows\form(ales).dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\bin\Debug\net8.0-windows\form(ales).pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\form_ales_.Form1.resources
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\form(ales).csproj.GenerateResource.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\form(ales).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\form(ales).AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\form(ales).AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\form(ales).csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\form(ales).sourcelink.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\form(ales).dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\refint\form(ales).dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\form(ales).pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\form(ales).genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\form(ales)\obj\Debug\net8.0-windows\ref\form(ales).dll

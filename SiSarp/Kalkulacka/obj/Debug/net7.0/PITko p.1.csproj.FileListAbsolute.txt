@@ -1,0 +1,15 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\bin\Debug\net7.0\PITko p.1.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\bin\Debug\net7.0\PITko p.1.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\bin\Debug\net7.0\PITko p.1.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\bin\Debug\net7.0\PITko p.1.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\bin\Debug\net7.0\PITko p.1.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\obj\Debug\net7.0\PITko p.1.csproj.AssemblyReference.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\obj\Debug\net7.0\PITko p.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\obj\Debug\net7.0\PITko p.1.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\obj\Debug\net7.0\PITko p.1.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\obj\Debug\net7.0\PITko p.1.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\obj\Debug\net7.0\PITko p.1.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\obj\Debug\net7.0\refint\PITko p.1.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\obj\Debug\net7.0\PITko p.1.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\obj\Debug\net7.0\PITko p.1.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\PITko p.1\obj\Debug\net7.0\ref\PITko p.1.dll
