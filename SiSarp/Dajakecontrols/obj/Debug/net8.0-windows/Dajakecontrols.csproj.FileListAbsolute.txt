@@ -1,0 +1,17 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\Dajakecontrols.Form1.resources
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\Dajakecontrols.csproj.GenerateResource.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\Dajakecontrols.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\Dajakecontrols.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\Dajakecontrols.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\Dajakecontrols.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\Dajakecontrols.sourcelink.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\bin\Debug\net8.0-windows\Dajakecontrols.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\bin\Debug\net8.0-windows\Dajakecontrols.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\bin\Debug\net8.0-windows\Dajakecontrols.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\bin\Debug\net8.0-windows\Dajakecontrols.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\bin\Debug\net8.0-windows\Dajakecontrols.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\Dajakecontrols.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\refint\Dajakecontrols.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\Dajakecontrols.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\Dajakecontrols.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Dajakecontrols\obj\Debug\net8.0-windows\ref\Dajakecontrols.dll

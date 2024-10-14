@@ -1,0 +1,15 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\bin\Debug\net8.0\multithread.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\bin\Debug\net8.0\multithread.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\bin\Debug\net8.0\multithread.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\bin\Debug\net8.0\multithread.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\bin\Debug\net8.0\multithread.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\obj\Debug\net8.0\multithread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\obj\Debug\net8.0\multithread.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\obj\Debug\net8.0\multithread.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\obj\Debug\net8.0\multithread.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\obj\Debug\net8.0\multithread.sourcelink.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\obj\Debug\net8.0\multithread.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\obj\Debug\net8.0\refint\multithread.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\obj\Debug\net8.0\multithread.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\obj\Debug\net8.0\multithread.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\multithread\obj\Debug\net8.0\ref\multithread.dll

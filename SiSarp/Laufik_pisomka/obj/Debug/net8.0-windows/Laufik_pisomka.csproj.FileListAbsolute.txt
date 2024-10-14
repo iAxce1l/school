@@ -1,0 +1,17 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\bin\Debug\net8.0-windows\Laufik_pisomka.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\bin\Debug\net8.0-windows\Laufik_pisomka.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\bin\Debug\net8.0-windows\Laufik_pisomka.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\bin\Debug\net8.0-windows\Laufik_pisomka.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\bin\Debug\net8.0-windows\Laufik_pisomka.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\Laufik_pisomka.Form1.resources
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\Laufik_pisomka.csproj.GenerateResource.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\Laufik_pisomka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\Laufik_pisomka.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\Laufik_pisomka.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\Laufik_pisomka.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\Laufik_pisomka.sourcelink.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\Laufik_pisomka.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\refint\Laufik_pisomka.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\Laufik_pisomka.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\Laufik_pisomka.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Laufik_pisomka\obj\Debug\net8.0-windows\ref\Laufik_pisomka.dll

@@ -1,0 +1,17 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\bin\Debug\net8.0-windows\du pitko hra.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\bin\Debug\net8.0-windows\du pitko hra.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\bin\Debug\net8.0-windows\du pitko hra.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\bin\Debug\net8.0-windows\du pitko hra.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\bin\Debug\net8.0-windows\du pitko hra.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\du_pitko_hra.Form1.resources
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\du pitko hra.csproj.GenerateResource.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\du pitko hra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\du pitko hra.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\du pitko hra.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\du pitko hra.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\du pitko hra.sourcelink.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\du pitko hra.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\refint\du pitko hra.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\du pitko hra.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\du pitko hra.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\du pitko hra\obj\Debug\net8.0-windows\ref\du pitko hra.dll
