@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\NewFile1.txt" />
+    <None Remove="NewFile1.txt" />
+    <None Remove="Services\NewFile1.txt" />
+    <None Remove="Utils\NewFile1.txt" />
+  </ItemGroup>
+
+</Project>

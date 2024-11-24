@@ -1,0 +1,17 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\bin\Debug\net9.0-windows\stkauta.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\bin\Debug\net9.0-windows\stkauta.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\bin\Debug\net9.0-windows\stkauta.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\bin\Debug\net9.0-windows\stkauta.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\bin\Debug\net9.0-windows\stkauta.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\stkauta.Form1.resources
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\stkauta.csproj.GenerateResource.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\stkauta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\stkauta.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\stkauta.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\stkauta.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\stkauta.sourcelink.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\stkauta.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\refint\stkauta.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\stkauta.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\stkauta.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\stkauta\stkauta\obj\Debug\net9.0-windows\ref\stkauta.dll

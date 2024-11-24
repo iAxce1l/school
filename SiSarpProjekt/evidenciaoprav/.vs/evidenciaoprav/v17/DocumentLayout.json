@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3DACDC-DBB4-47E6-9B06-43BED7F591DE}|evidenciaoprav\\evidenciaoprav.csproj|c:\\users\\kamo4\\documents\\github\\school\\sisarpprojekt\\evidenciaoprav\\evidenciaoprav\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3DACDC-DBB4-47E6-9B06-43BED7F591DE}|evidenciaoprav\\evidenciaoprav.csproj|solutionrelative:evidenciaoprav\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3DACDC-DBB4-47E6-9B06-43BED7F591DE}|evidenciaoprav\\evidenciaoprav.csproj|c:\\users\\kamo4\\documents\\github\\school\\sisarpprojekt\\evidenciaoprav\\evidenciaoprav\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3DACDC-DBB4-47E6-9B06-43BED7F591DE}|evidenciaoprav\\evidenciaoprav.csproj|solutionrelative:evidenciaoprav\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3DACDC-DBB4-47E6-9B06-43BED7F591DE}|evidenciaoprav\\evidenciaoprav.csproj|c:\\users\\kamo4\\documents\\github\\school\\sisarpprojekt\\evidenciaoprav\\evidenciaoprav\\services\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3DACDC-DBB4-47E6-9B06-43BED7F591DE}|evidenciaoprav\\evidenciaoprav.csproj|solutionrelative:evidenciaoprav\\services\\idataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3DACDC-DBB4-47E6-9B06-43BED7F591DE}|evidenciaoprav\\evidenciaoprav.csproj|c:\\users\\kamo4\\documents\\github\\school\\sisarpprojekt\\evidenciaoprav\\evidenciaoprav\\utils\\validationhelpre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3DACDC-DBB4-47E6-9B06-43BED7F591DE}|evidenciaoprav\\evidenciaoprav.csproj|solutionrelative:evidenciaoprav\\utils\\validationhelpre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3DACDC-DBB4-47E6-9B06-43BED7F591DE}|evidenciaoprav\\evidenciaoprav.csproj|c:\\users\\kamo4\\documents\\github\\school\\sisarpprojekt\\evidenciaoprav\\evidenciaoprav\\form12.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3DACDC-DBB4-47E6-9B06-43BED7F591DE}|evidenciaoprav\\evidenciaoprav.csproj|solutionrelative:evidenciaoprav\\form12.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidationHelpre.cs",
+              "DocumentMoniker": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\evidenciaoprav\\Utils\\ValidationHelpre.cs",
+              "RelativeDocumentMoniker": "evidenciaoprav\\Utils\\ValidationHelpre.cs",
+              "ToolTip": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\evidenciaoprav\\Utils\\ValidationHelpre.cs",
+              "RelativeToolTip": "evidenciaoprav\\Utils\\ValidationHelpre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:41:22.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDataService.cs",
+              "DocumentMoniker": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\evidenciaoprav\\Services\\IDataService.cs",
+              "RelativeDocumentMoniker": "evidenciaoprav\\Services\\IDataService.cs",
+              "ToolTip": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\evidenciaoprav\\Services\\IDataService.cs",
+              "RelativeToolTip": "evidenciaoprav\\Services\\IDataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:41:16.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\evidenciaoprav\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "evidenciaoprav\\Services\\DataService.cs",
+              "ToolTip": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\evidenciaoprav\\Services\\DataService.cs",
+              "RelativeToolTip": "evidenciaoprav\\Services\\DataService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:41:08.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\evidenciaoprav\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "evidenciaoprav\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\evidenciaoprav\\Models\\Car.cs",
+              "RelativeToolTip": "evidenciaoprav\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:29:56.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form12.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\evidenciaoprav\\Form12.Designer.cs",
+              "RelativeDocumentMoniker": "evidenciaoprav\\Form12.Designer.cs",
+              "ToolTip": "C:\\Users\\kamo4\\Documents\\GitHub\\school\\SiSarpProjekt\\evidenciaoprav\\evidenciaoprav\\Form12.Designer.cs*",
+              "RelativeToolTip": "evidenciaoprav\\Form12.Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:16:40.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

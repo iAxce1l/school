@@ -1,0 +1,17 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\bin\Debug\net9.0-windows\evidenciaoprav.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\bin\Debug\net9.0-windows\evidenciaoprav.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\bin\Debug\net9.0-windows\evidenciaoprav.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\bin\Debug\net9.0-windows\evidenciaoprav.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\bin\Debug\net9.0-windows\evidenciaoprav.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\evidenciaoprav.Form1.resources
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\evidenciaoprav.csproj.GenerateResource.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\evidenciaoprav.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\evidenciaoprav.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\evidenciaoprav.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\evidenciaoprav.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\evidenciaoprav.sourcelink.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\evidenciaoprav.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\refint\evidenciaoprav.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\evidenciaoprav.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\evidenciaoprav.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarpProjekt\evidenciaoprav\evidenciaoprav\obj\Debug\net9.0-windows\ref\evidenciaoprav.dll
