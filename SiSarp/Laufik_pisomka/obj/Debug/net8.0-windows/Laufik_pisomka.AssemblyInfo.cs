@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Laufik_pisomka")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caca9a7f373f9367ee813bebaf4d496fedd79eb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6ba8ebfa5fce40696fb6a9eba4c899ffb9271eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Laufik_pisomka")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Laufik_pisomka")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

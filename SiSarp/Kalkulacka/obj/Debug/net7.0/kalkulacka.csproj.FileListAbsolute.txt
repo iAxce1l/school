@@ -1,0 +1,15 @@
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\bin\Debug\net7.0\kalkulacka.exe
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\bin\Debug\net7.0\kalkulacka.deps.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\bin\Debug\net7.0\kalkulacka.runtimeconfig.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\bin\Debug\net7.0\kalkulacka.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\bin\Debug\net7.0\kalkulacka.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\obj\Debug\net7.0\kalkulacka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\obj\Debug\net7.0\kalkulacka.AssemblyInfoInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\obj\Debug\net7.0\kalkulacka.AssemblyInfo.cs
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\obj\Debug\net7.0\kalkulacka.csproj.CoreCompileInputs.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\obj\Debug\net7.0\kalkulacka.sourcelink.json
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\obj\Debug\net7.0\kalkulacka.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\obj\Debug\net7.0\refint\kalkulacka.dll
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\obj\Debug\net7.0\kalkulacka.pdb
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\obj\Debug\net7.0\kalkulacka.genruntimeconfig.cache
+C:\Users\kamo4\Documents\GitHub\school\SiSarp\Kalkulacka\obj\Debug\net7.0\ref\kalkulacka.dll
